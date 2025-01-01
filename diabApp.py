@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import joblib
 
-
 model = joblib.load('diabetesModel.pkl')
 scaler = joblib.load('scaler.pkl')
 
